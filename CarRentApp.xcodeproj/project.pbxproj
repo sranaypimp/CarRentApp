@@ -7,15 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		185A83D828C2EB780059D835 /* APIServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185A83D728C2EB780059D835 /* APIServiceTests.swift */; };
+		185A83DA28C2EC9F0059D835 /* CarListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185A83D928C2EC9F0059D835 /* CarListViewModelTests.swift */; };
+		1884D9A828C1E10A0071AC67 /* MapAnnotationsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1884D9A728C1E10A0071AC67 /* MapAnnotationsVC.swift */; };
 		1C9E976E28C1A0D8002EFE96 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9E976D28C1A0D8002EFE96 /* AppDelegate.swift */; };
 		1C9E977028C1A0D8002EFE96 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9E976F28C1A0D8002EFE96 /* SceneDelegate.swift */; };
-		1C9E977228C1A0D8002EFE96 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9E977128C1A0D8002EFE96 /* ViewController.swift */; };
 		1C9E977528C1A0D8002EFE96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C9E977328C1A0D8002EFE96 /* Main.storyboard */; };
 		1C9E977728C1A0D9002EFE96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C9E977628C1A0D9002EFE96 /* Assets.xcassets */; };
 		1C9E977A28C1A0D9002EFE96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C9E977828C1A0D9002EFE96 /* LaunchScreen.storyboard */; };
 		1C9E978528C1A0D9002EFE96 /* CarRentAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9E978428C1A0D9002EFE96 /* CarRentAppTests.swift */; };
 		1C9E978F28C1A0D9002EFE96 /* CarRentAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9E978E28C1A0D9002EFE96 /* CarRentAppUITests.swift */; };
 		1C9E979128C1A0D9002EFE96 /* CarRentAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9E979028C1A0D9002EFE96 /* CarRentAppUITestsLaunchTests.swift */; };
+		1C9E97A328C1AAA4002EFE96 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9E97A228C1AAA4002EFE96 /* APIService.swift */; };
+		1C9E97A528C1AB5D002EFE96 /* car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9E97A428C1AB5D002EFE96 /* car.swift */; };
+		1C9E97A728C1AE0C002EFE96 /* sixt.json in Resources */ = {isa = PBXBuildFile; fileRef = 1C9E97A628C1AE0C002EFE96 /* sixt.json */; };
+		1C9E97AB28C1AF1A002EFE96 /* CarListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9E97AA28C1AF1A002EFE96 /* CarListViewController.swift */; };
+		1C9E97AD28C1AFCB002EFE96 /* CarListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9E97AC28C1AFCB002EFE96 /* CarListViewModel.swift */; };
+		1C9E97AF28C1B2D4002EFE96 /* CarDetailOnMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9E97AE28C1B2D4002EFE96 /* CarDetailOnMapViewController.swift */; };
+		1C9E97B128C1BE09002EFE96 /* CarListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9E97B028C1BE09002EFE96 /* CarListTableViewCell.swift */; };
+		1C9E97B328C1CA97002EFE96 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9E97B228C1CA97002EFE96 /* Constants.swift */; };
+		92F19573EE4A943546B5B3ED /* Pods_CarRentApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 266127C4EC689A3AA1A536DE /* Pods_CarRentApp.framework */; };
+		9812A622B1D9117C144B433A /* Pods_CarRentApp_CarRentAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B12E821C40B60A5C960C86B /* Pods_CarRentApp_CarRentAppUITests.framework */; };
+		C73FF8A6828767E1CF4BDBDC /* Pods_CarRentAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A87C4BE23942A2351CACEA4 /* Pods_CarRentAppTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +49,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E136BE10B76161425A4E71A /* Pods-CarRentAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarRentAppTests.debug.xcconfig"; path = "Target Support Files/Pods-CarRentAppTests/Pods-CarRentAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		185A83D728C2EB780059D835 /* APIServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIServiceTests.swift; sourceTree = "<group>"; };
+		185A83D928C2EC9F0059D835 /* CarListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarListViewModelTests.swift; sourceTree = "<group>"; };
+		1884D9A728C1E10A0071AC67 /* MapAnnotationsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAnnotationsVC.swift; sourceTree = "<group>"; };
 		1C9E976A28C1A0D8002EFE96 /* CarRentApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarRentApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C9E976D28C1A0D8002EFE96 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1C9E976F28C1A0D8002EFE96 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1C9E977128C1A0D8002EFE96 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1C9E977428C1A0D8002EFE96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1C9E977628C1A0D9002EFE96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1C9E977928C1A0D9002EFE96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +65,22 @@
 		1C9E978A28C1A0D9002EFE96 /* CarRentAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarRentAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C9E978E28C1A0D9002EFE96 /* CarRentAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarRentAppUITests.swift; sourceTree = "<group>"; };
 		1C9E979028C1A0D9002EFE96 /* CarRentAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarRentAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1C9E97A228C1AAA4002EFE96 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		1C9E97A428C1AB5D002EFE96 /* car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = car.swift; sourceTree = "<group>"; };
+		1C9E97A628C1AE0C002EFE96 /* sixt.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sixt.json; sourceTree = "<group>"; };
+		1C9E97AA28C1AF1A002EFE96 /* CarListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarListViewController.swift; sourceTree = "<group>"; };
+		1C9E97AC28C1AFCB002EFE96 /* CarListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarListViewModel.swift; sourceTree = "<group>"; };
+		1C9E97AE28C1B2D4002EFE96 /* CarDetailOnMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarDetailOnMapViewController.swift; sourceTree = "<group>"; };
+		1C9E97B028C1BE09002EFE96 /* CarListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarListTableViewCell.swift; sourceTree = "<group>"; };
+		1C9E97B228C1CA97002EFE96 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		204905EC514FAA820564423C /* Pods-CarRentApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarRentApp.debug.xcconfig"; path = "Target Support Files/Pods-CarRentApp/Pods-CarRentApp.debug.xcconfig"; sourceTree = "<group>"; };
+		266127C4EC689A3AA1A536DE /* Pods_CarRentApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CarRentApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A87C4BE23942A2351CACEA4 /* Pods_CarRentAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CarRentAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B155C6ABC0B645228596EA8 /* Pods-CarRentApp-CarRentAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarRentApp-CarRentAppUITests.release.xcconfig"; path = "Target Support Files/Pods-CarRentApp-CarRentAppUITests/Pods-CarRentApp-CarRentAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5B12E821C40B60A5C960C86B /* Pods_CarRentApp_CarRentAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CarRentApp_CarRentAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B88DF2A8D896614F6B13242A /* Pods-CarRentAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarRentAppTests.release.xcconfig"; path = "Target Support Files/Pods-CarRentAppTests/Pods-CarRentAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		B9A0D73B9C317B506E31E574 /* Pods-CarRentApp-CarRentAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarRentApp-CarRentAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-CarRentApp-CarRentAppUITests/Pods-CarRentApp-CarRentAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BEB235C4CBC510D7FC982FFF /* Pods-CarRentApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarRentApp.release.xcconfig"; path = "Target Support Files/Pods-CarRentApp/Pods-CarRentApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92F19573EE4A943546B5B3ED /* Pods_CarRentApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C73FF8A6828767E1CF4BDBDC /* Pods_CarRentAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9812A622B1D9117C144B433A /* Pods_CarRentApp_CarRentAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +118,8 @@
 				1C9E978328C1A0D9002EFE96 /* CarRentAppTests */,
 				1C9E978D28C1A0D9002EFE96 /* CarRentAppUITests */,
 				1C9E976B28C1A0D8002EFE96 /* Products */,
+				841005D318E4B8098ADD5180 /* Pods */,
+				42A786330B6F9771D2D994E9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +136,17 @@
 		1C9E976C28C1A0D8002EFE96 /* CarRentApp */ = {
 			isa = PBXGroup;
 			children = (
+				1C9E979E28C1A984002EFE96 /* Model */,
+				1C9E97A128C1A9B5002EFE96 /* View */,
+				1C9E979F28C1A999002EFE96 /* ViewModel */,
+				1C9E979D28C1A974002EFE96 /* Service */,
 				1C9E976D28C1A0D8002EFE96 /* AppDelegate.swift */,
 				1C9E976F28C1A0D8002EFE96 /* SceneDelegate.swift */,
-				1C9E977128C1A0D8002EFE96 /* ViewController.swift */,
 				1C9E977328C1A0D8002EFE96 /* Main.storyboard */,
 				1C9E977628C1A0D9002EFE96 /* Assets.xcassets */,
 				1C9E977828C1A0D9002EFE96 /* LaunchScreen.storyboard */,
 				1C9E977B28C1A0D9002EFE96 /* Info.plist */,
+				1C9E97B228C1CA97002EFE96 /* Constants.swift */,
 			);
 			path = CarRentApp;
 			sourceTree = "<group>";
@@ -114,6 +155,8 @@
 			isa = PBXGroup;
 			children = (
 				1C9E978428C1A0D9002EFE96 /* CarRentAppTests.swift */,
+				185A83D728C2EB780059D835 /* APIServiceTests.swift */,
+				185A83D928C2EC9F0059D835 /* CarListViewModelTests.swift */,
 			);
 			path = CarRentAppTests;
 			sourceTree = "<group>";
@@ -127,6 +170,81 @@
 			path = CarRentAppUITests;
 			sourceTree = "<group>";
 		};
+		1C9E979D28C1A974002EFE96 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				1C9E97A228C1AAA4002EFE96 /* APIService.swift */,
+				1C9E97A628C1AE0C002EFE96 /* sixt.json */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		1C9E979E28C1A984002EFE96 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1C9E97A428C1AB5D002EFE96 /* car.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1C9E979F28C1A999002EFE96 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1C9E97A928C1AEEB002EFE96 /* CarDetailsOnMap */,
+				1C9E97A828C1AEE1002EFE96 /* CarList */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1C9E97A128C1A9B5002EFE96 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1C9E97AA28C1AF1A002EFE96 /* CarListViewController.swift */,
+				1C9E97B028C1BE09002EFE96 /* CarListTableViewCell.swift */,
+				1884D9A728C1E10A0071AC67 /* MapAnnotationsVC.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1C9E97A828C1AEE1002EFE96 /* CarList */ = {
+			isa = PBXGroup;
+			children = (
+				1C9E97AC28C1AFCB002EFE96 /* CarListViewModel.swift */,
+			);
+			path = CarList;
+			sourceTree = "<group>";
+		};
+		1C9E97A928C1AEEB002EFE96 /* CarDetailsOnMap */ = {
+			isa = PBXGroup;
+			children = (
+				1C9E97AE28C1B2D4002EFE96 /* CarDetailOnMapViewController.swift */,
+			);
+			path = CarDetailsOnMap;
+			sourceTree = "<group>";
+		};
+		42A786330B6F9771D2D994E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				266127C4EC689A3AA1A536DE /* Pods_CarRentApp.framework */,
+				5B12E821C40B60A5C960C86B /* Pods_CarRentApp_CarRentAppUITests.framework */,
+				3A87C4BE23942A2351CACEA4 /* Pods_CarRentAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		841005D318E4B8098ADD5180 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				204905EC514FAA820564423C /* Pods-CarRentApp.debug.xcconfig */,
+				BEB235C4CBC510D7FC982FFF /* Pods-CarRentApp.release.xcconfig */,
+				B9A0D73B9C317B506E31E574 /* Pods-CarRentApp-CarRentAppUITests.debug.xcconfig */,
+				4B155C6ABC0B645228596EA8 /* Pods-CarRentApp-CarRentAppUITests.release.xcconfig */,
+				0E136BE10B76161425A4E71A /* Pods-CarRentAppTests.debug.xcconfig */,
+				B88DF2A8D896614F6B13242A /* Pods-CarRentAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +252,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1C9E979428C1A0D9002EFE96 /* Build configuration list for PBXNativeTarget "CarRentApp" */;
 			buildPhases = (
+				12C3AC6F7E08D354983A215D /* [CP] Check Pods Manifest.lock */,
 				1C9E976628C1A0D8002EFE96 /* Sources */,
 				1C9E976728C1A0D8002EFE96 /* Frameworks */,
 				1C9E976828C1A0D8002EFE96 /* Resources */,
+				4CD9781A264F9149ACAADEFE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +271,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1C9E979728C1A0D9002EFE96 /* Build configuration list for PBXNativeTarget "CarRentAppTests" */;
 			buildPhases = (
+				81BF83146C210E103B73E33C /* [CP] Check Pods Manifest.lock */,
 				1C9E977C28C1A0D9002EFE96 /* Sources */,
 				1C9E977D28C1A0D9002EFE96 /* Frameworks */,
 				1C9E977E28C1A0D9002EFE96 /* Resources */,
@@ -169,9 +290,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1C9E979A28C1A0D9002EFE96 /* Build configuration list for PBXNativeTarget "CarRentAppUITests" */;
 			buildPhases = (
+				8DCFF27B3AE9C49813EA3280 /* [CP] Check Pods Manifest.lock */,
 				1C9E978628C1A0D9002EFE96 /* Sources */,
 				1C9E978728C1A0D9002EFE96 /* Frameworks */,
 				1C9E978828C1A0D9002EFE96 /* Resources */,
+				6B454B4B3F50F191D725DC69 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -232,6 +355,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C9E977A28C1A0D9002EFE96 /* LaunchScreen.storyboard in Resources */,
+				1C9E97A728C1AE0C002EFE96 /* sixt.json in Resources */,
 				1C9E977728C1A0D9002EFE96 /* Assets.xcassets in Resources */,
 				1C9E977528C1A0D8002EFE96 /* Main.storyboard in Resources */,
 			);
@@ -253,14 +377,124 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		12C3AC6F7E08D354983A215D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CarRentApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4CD9781A264F9149ACAADEFE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CarRentApp/Pods-CarRentApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CarRentApp/Pods-CarRentApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CarRentApp/Pods-CarRentApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B454B4B3F50F191D725DC69 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CarRentApp-CarRentAppUITests/Pods-CarRentApp-CarRentAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CarRentApp-CarRentAppUITests/Pods-CarRentApp-CarRentAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CarRentApp-CarRentAppUITests/Pods-CarRentApp-CarRentAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81BF83146C210E103B73E33C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CarRentAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8DCFF27B3AE9C49813EA3280 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CarRentApp-CarRentAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1C9E976628C1A0D8002EFE96 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C9E977228C1A0D8002EFE96 /* ViewController.swift in Sources */,
+				1C9E97A528C1AB5D002EFE96 /* car.swift in Sources */,
+				1C9E97AB28C1AF1A002EFE96 /* CarListViewController.swift in Sources */,
+				1C9E97B128C1BE09002EFE96 /* CarListTableViewCell.swift in Sources */,
 				1C9E976E28C1A0D8002EFE96 /* AppDelegate.swift in Sources */,
+				1C9E97A328C1AAA4002EFE96 /* APIService.swift in Sources */,
 				1C9E977028C1A0D8002EFE96 /* SceneDelegate.swift in Sources */,
+				1C9E97AF28C1B2D4002EFE96 /* CarDetailOnMapViewController.swift in Sources */,
+				1C9E97AD28C1AFCB002EFE96 /* CarListViewModel.swift in Sources */,
+				1884D9A828C1E10A0071AC67 /* MapAnnotationsVC.swift in Sources */,
+				1C9E97B328C1CA97002EFE96 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +502,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				185A83D828C2EB780059D835 /* APIServiceTests.swift in Sources */,
 				1C9E978528C1A0D9002EFE96 /* CarRentAppTests.swift in Sources */,
+				185A83DA28C2EC9F0059D835 /* CarListViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,11 +668,13 @@
 		};
 		1C9E979528C1A0D9002EFE96 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 204905EC514FAA820564423C /* Pods-CarRentApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4AU3CVG43Q;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CarRentApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -444,6 +682,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -459,11 +698,13 @@
 		};
 		1C9E979628C1A0D9002EFE96 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEB235C4CBC510D7FC982FFF /* Pods-CarRentApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4AU3CVG43Q;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CarRentApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -471,6 +712,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -486,13 +728,14 @@
 		};
 		1C9E979828C1A0D9002EFE96 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E136BE10B76161425A4E71A /* Pods-CarRentAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = subhash.CarRentAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -505,13 +748,14 @@
 		};
 		1C9E979928C1A0D9002EFE96 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B88DF2A8D896614F6B13242A /* Pods-CarRentAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = subhash.CarRentAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -524,6 +768,7 @@
 		};
 		1C9E979B28C1A0D9002EFE96 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9A0D73B9C317B506E31E574 /* Pods-CarRentApp-CarRentAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -541,6 +786,7 @@
 		};
 		1C9E979C28C1A0D9002EFE96 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B155C6ABC0B645228596EA8 /* Pods-CarRentApp-CarRentAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
